@@ -1,3 +1,11 @@
+-----------------------------------------------
+-- Vue : Somme_ingredient_potion
+----------------------------------------------- 
+
+-----------------------------------------------
+-- Definition
+----------------------------------------------- 
+
 CREATE VIEW Somme_ingredient_potion
 (Produit, Valeur)
 AS SELECT Preparation.IDproduit, SUM(se_compose_prepa.QteIngredient)

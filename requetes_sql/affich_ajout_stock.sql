@@ -1,3 +1,11 @@
+-----------------------------------------------
+-- Procedure : ajout_stock
+----------------------------------------------- 
+
+-----------------------------------------------
+-- Definition
+----------------------------------------------- 
+
 DELIMITER |
 DROP PROCEDURE IF EXISTS ajout_stock | 
 CREATE PROCEDURE ajout_stock(nb int, fraicheur int, id_produit int, id_fournisseur int)

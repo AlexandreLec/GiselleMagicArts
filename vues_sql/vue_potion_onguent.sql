@@ -1,3 +1,11 @@
+-----------------------------------------------
+-- Procedure : ListePotion
+----------------------------------------------- 
+
+-----------------------------------------------
+-- Definition
+----------------------------------------------- 
+
 CREATE VIEW ListePotion
 (ID, Potion)
 AS SELECT Preparation.IDproduit, Produit.NomProduit

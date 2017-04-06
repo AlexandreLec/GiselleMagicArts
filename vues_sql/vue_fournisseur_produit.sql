@@ -1,3 +1,11 @@
+-----------------------------------------------
+-- Procedure : Fournisseur_produit
+----------------------------------------------- 
+
+-----------------------------------------------
+-- Definition
+----------------------------------------------- 
+
 CREATE VIEW Fournisseur_produit
 (Fournisseur, Produits)
 AS SELECT Fournisseur.Nom, Produit.NomProduit
