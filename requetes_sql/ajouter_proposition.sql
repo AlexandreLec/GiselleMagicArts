@@ -57,6 +57,8 @@ SELECT qte3, fraichMin3,fraichMax3,temps3,@IDPropo,IDproduit
 FROM Produit
 WHERE NomProduit = ingredient3;
 
+CALL recette_proposition(@IDPropo);
+
 END |
 DELIMITER ;
 
